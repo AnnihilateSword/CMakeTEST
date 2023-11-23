@@ -1,0 +1,3 @@
+[submodule "CMakeTEST/vendor/GLFW"]
+	path = CMakeTEST/vendor/GLFW
+	url = git@github.com:AnnihilateSword/glfw.git
