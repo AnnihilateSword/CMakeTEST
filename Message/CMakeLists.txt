@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.28.0)
 project(Message LANGUAGES CXX)
 
 if (WIN32)
-    # Windows 平台加上这段代码才会输出 lib
+    # 生成动态库时，Windows 平台加上这段代码才会输出 lib
     set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 elseif(UNIX)
     # TODO
